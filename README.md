@@ -1,28 +1,14 @@
 # Fabrizzio Rodriguez
 
-### Applied Economist | Causal Inference | Spatial Econometrics | Infrastructure & Regional Economics
+**Applied economist working on causal inference, spatial econometrics, and infrastructure economics.**
 
 **MA Economics, University of Manitoba · Winnipeg, Canada**
-
-I am an applied economist working at the intersection of **causal inference, spatial econometrics, infrastructure economics, and regional development**.
-
-My research studies how transportation and connectivity shocks affect **population, employment, accessibility, and regional resilience**, with particular attention to heterogeneous treatment effects, spatial spillovers, and infrastructure dependence in remote and Northern communities.
-
-I combine quasi-experimental methods with GIS, longitudinal regional data, spatial analysis, and reproducible computational workflows.
 
 ---
 
 ## Research Interests
 
-- Causal Inference
-- Spatial Econometrics
-- Transportation & Infrastructure Economics
-- Urban & Regional Economics
-- Spatial Spillovers & Interference
-- GIS & Geospatial Data Science
-- Longitudinal Spatial Panels
-- Northern & Remote Connectivity
-- Infrastructure Policy Evaluation
+Causal Inference · Spatial Econometrics · Transportation & Infrastructure Economics · Urban & Regional Economics · Spatial Spillovers & Interference · GIS & Geospatial Data Science · Longitudinal Spatial Panels · Northern & Remote Connectivity · Infrastructure Policy Evaluation
 
 ---
 
