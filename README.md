@@ -112,9 +112,3 @@ I currently serve as **Vice-President, Research & Development** of the Economics
 > **How do infrastructure and connectivity shocks reshape economic activity, population dynamics, and resilience across space?**
 
 I am particularly interested in settings where standard counterfactual construction is difficult because communities differ sharply in geography, accessibility, industrial structure, population size, and exposure to infrastructure networks.
-
----
-
-## Connect
-
-[LinkedIn](https://www.linkedin.com/in/frodrigueza/) · [Email](mailto:frodrigueza.career@gmail.com)
