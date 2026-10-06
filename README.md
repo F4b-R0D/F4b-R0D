@@ -1,49 +1,80 @@
 # Fabrizzio Rodriguez
 
-**Applied economist working on causal inference, spatial econometrics, and infrastructure economics.**
+**Applied economist focused on causal inference, spatial econometrics, infrastructure economics, and quantitative decision models.**
 
-**MA Economics, University of Manitoba · Winnipeg, Canada**
+**M.A. Economics · University of Manitoba · Canada**
 
-## Research Focus
+I work on empirical and computational approaches to regional development, infrastructure, labour markets, and investment planning, with particular interest in Northern and remote economies.
 
-Causal Inference · Spatial Econometrics · Transportation & Infrastructure Economics · Regional Development · Spatial Spillovers · GIS · Northern & Remote Connectivity
+## Research & Professional Focus
 
-## Current Research
+**Causal inference** · **Spatial econometrics** · **Infrastructure economics** · **Regional development** · **Operations research** · **Labour-market analysis** · **GIS**
 
-### [Road Connectivity in Northern Canada](https://github.com/F4b-R0D/xxx)
+## Featured Projects
 
-Replication and extension of research on how road connectivity affects employment and education in Northern Canada.
+### [Stringer & Joanis (2022) Replication and Extension](https://github.com/F4b-R0D/stringer-joanis-2022-replication)
 
-The project builds a longitudinal municipality-level panel across Census waves and combines geographic harmonization, transportation data, GIS, and modern treatment-effect estimators.
+Replication and extension of research on road connectivity, employment, and education in Northern Canada.
 
-**Methods:** `TWFE` · `Staggered DiD` · `Callaway & Sant'Anna` · `GIS Buffers` · `Network Exposure`
+The project combines longitudinal Census data, geographic harmonization, GIS, and modern treatment-effect estimators to study how transport connectivity affects remote communities.
 
-### [Hudson Bay Railway Corridor](https://github.com/F4b-R0D/yyy)
+**Methods:** `TWFE` · `Staggered DiD` · `Callaway & Sant'Anna` · `GIS` · `Network Exposure`
+
+---
+
+### [Hudson Bay Railway Connectivity](https://github.com/F4b-R0D/hudson-bay-railway-connectivity)
 
 **Connectivity Disruptions and Demographic Resilience in Remote Canada**
 
-I study the effects of the **2017 Hudson Bay Railway disruption** on population, employment, and regional resilience across Northern Manitoba.
-
-The project combines Canadian Census data, GIS-based exposure measures, quasi-experimental methods, and spatial analysis to evaluate the consequences of losing critical transportation infrastructure.
+An ex post evaluation of the 2017 Hudson Bay Railway disruption and its effects on population, employment, and regional resilience across Northern Manitoba.
 
 **Methods:** `Difference-in-Differences` · `Event Studies` · `Spatial Exposure` · `Moran's I` · `LISA` · `Synthetic Control`
 
+---
+
+### [Optimal Investment Sequencing](https://github.com/F4b-R0D/optimal-investment-workforce-sequencing)
+
+An ex ante investment-planning model that links project pipelines, input-output analysis, industry-to-occupation mappings, labour constraints, and optimization.
+
+The objective is to identify the timing and scale of investments that generate sustainable employment paths for strategic occupations while respecting workforce, budget, capacity, and project constraints.
+
+**Methods:** `Input-Output` · `NAICS–NOC Mapping` · `Workforce Forecasting` · `Resource Constraints` · `Optimization` · `Scenario Analysis`
+
+## Analytical Profile
+
+My work spans three complementary stages of quantitative analysis:
+
+```
+Ex post evaluation
+        ↓
+Economic and spatial measurement
+        ↓
+Ex ante forecasting
+        ↓
+Decision optimization
+```
+
+This combines causal econometrics with operational and planning models designed to support infrastructure and regional-development decisions.
+
 ## Methods & Tools
 
-**Causal inference:** Difference-in-Differences · Event Studies · Fixed Effects · Staggered Treatment · Synthetic Control
+**Econometrics:** Difference-in-Differences · Event Studies · Fixed Effects · Staggered Treatment · Synthetic Control
 
-**Spatial analysis:** Spatial Econometrics · Moran's I · LISA · Spatial Spillovers · Network Exposure · GIS
+**Spatial:** Spatial Econometrics · Moran's I · LISA · Spatial Spillovers · Network Exposure · GIS
 
-**Programming:** Python · R · SQL · MATLAB · GeoPandas · pandas · statsmodels · QGIS
+**Optimization & modelling:** Input-Output Analysis · Dynamic Programming · Operations Research · Workforce Planning · Scenario Analysis
 
-<details>
-<summary><strong>Previous Quantitative Work</strong></summary>
+**Programming:** Python · R · SQL · MATLAB · Jupyter · GeoPandas · pandas · statsmodels · QGIS
 
-- [GDP Nowcasting](https://github.com/F4b-R0D/GDP-Nowcasting) — high-frequency indicators, electricity consumption, time-series econometrics and forecasting.
-- [Optimal Asset Replacement Model](https://github.com/F4b-R0D/Optimal-Replacement-Model) — dynamic programming and infrastructure planning under uncertainty.
+## Selected Previous Work
 
-</details>
+- [GDP Nowcasting](https://github.com/F4b-R0D/GDP-Nowcasting) — high-frequency indicators, electricity consumption, and time-series forecasting.
+- [Optimal Replacement Model](https://github.com/F4b-R0D/Optimal-Replacement-Model) — dynamic programming and infrastructure asset-replacement decisions.
 
-## Research Question
+## Research Theme
 
-> **How do infrastructure and connectivity shocks reshape economic activity, population dynamics, and resilience across space?**
+> **How can infrastructure, connectivity, and investment decisions shape resilient development in remote and regional economies?**
+
+---
+
+**Open-source projects are released under the MIT License unless otherwise noted.**
