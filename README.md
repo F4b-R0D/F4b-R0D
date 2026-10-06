@@ -10,7 +10,7 @@ Causal Inference · Spatial Econometrics · Transportation & Infrastructure Econ
 
 ## Current Research
 
-### Road Connectivity in Northern Canada
+### [Road Connectivity in Northern Canada](https://github.com/F4b-R0D/xxx)
 
 Replication and extension of research on how road connectivity affects employment and education in Northern Canada.
 
@@ -18,7 +18,7 @@ The project builds a longitudinal municipality-level panel across Census waves a
 
 **Methods:** `TWFE` · `Staggered DiD` · `Callaway & Sant'Anna` · `GIS Buffers` · `Network Exposure`
 
-### Hudson Bay Railway Corridor
+### [Hudson Bay Railway Corridor](https://github.com/F4b-R0D/yyy)
 
 **Connectivity Disruptions and Demographic Resilience in Remote Canada**
 
