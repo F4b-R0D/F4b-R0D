@@ -10,7 +10,7 @@ I work on empirical and computational approaches to regional development, infras
 
 **Causal inference** · **Spatial econometrics** · **Infrastructure economics** · **Regional development** · **Operations research** · **Labour-market analysis** · **GIS**
 
-## Featured Projects
+## Research Projects
 
 ### [Stringer & Joanis (2022) Replication and Extension](https://github.com/F4b-R0D/stringer-joanis-2022-replication)
 
@@ -30,7 +30,7 @@ An ex post evaluation of the 2017 Hudson Bay Railway disruption and its effects 
 
 **Methods:** `Difference-in-Differences` · `Event Studies` · `Spatial Exposure` · `Moran's I` · `LISA` · `Synthetic Control`
 
----
+## Professional Projects
 
 ### [Optimal Investment Sequencing](https://github.com/F4b-R0D/optimal-investment-workforce-sequencing)
 
@@ -40,21 +40,21 @@ The objective is to identify the timing and scale of investments that generate s
 
 **Methods:** `Input-Output` · `NAICS–NOC Mapping` · `Workforce Forecasting` · `Resource Constraints` · `Optimization` · `Scenario Analysis`
 
-## Analytical Profile
+---
 
-My work spans three complementary stages of quantitative analysis:
+### [GDP Nowcasting](https://github.com/F4b-R0D/GDP-Nowcasting)
 
-```
-Ex post evaluation
-        ↓
-Economic and spatial measurement
-        ↓
-Ex ante forecasting
-        ↓
-Decision optimization
-```
+High-frequency economic activity measurement using electricity consumption and time-series forecasting.
 
-This combines causal econometrics with operational and planning models designed to support infrastructure and regional-development decisions.
+**Methods:** `Nowcasting` · `Time Series` · `High-Frequency Indicators` · `Python`
+
+---
+
+### [Optimal Replacement Model](https://github.com/F4b-R0D/Optimal-Replacement-Model)
+
+Dynamic programming model for infrastructure asset-replacement decisions under uncertainty.
+
+**Methods:** `Dynamic Programming` · `NFXP` · `Capital Budgeting` · `Optimization`
 
 ## Methods & Tools
 
@@ -65,11 +65,6 @@ This combines causal econometrics with operational and planning models designed 
 **Optimization & modelling:** Input-Output Analysis · Dynamic Programming · Operations Research · Workforce Planning · Scenario Analysis
 
 **Programming:** Python · R · SQL · MATLAB · Jupyter · GeoPandas · pandas · statsmodels · QGIS
-
-## Selected Previous Work
-
-- [GDP Nowcasting](https://github.com/F4b-R0D/GDP-Nowcasting) — high-frequency indicators, electricity consumption, and time-series forecasting.
-- [Optimal Replacement Model](https://github.com/F4b-R0D/Optimal-Replacement-Model) — dynamic programming and infrastructure asset-replacement decisions.
 
 ## Research Theme
 
