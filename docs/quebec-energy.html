@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Québec electricity map | Plotly test</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    #map{height:78vh;min-height:620px;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+    .note{color:var(--muted);margin:0 0 18px}
+    .back{display:inline-block;margin-bottom:18px;color:var(--text)}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <a class="back" href="index.html">← Portfolio</a>
+    <h1 style="font-size:2rem">Québec electricity map</h1>
+    <p class="note">Plotly rendering test for GitHub Pages. The points and values below are synthetic placeholders used only to verify interactivity and responsiveness.</p>
+    <div id="map"></div>
+  </main>
+
+<script>
+const lat = [45.5, 47.8, 49.9, 52.1, 58.1];
+const lon = [-73.6, -69.5, -74.4, -71.0, -68.4];
+const change = [12, -8, 21, -17, 7];
+const labels = ["Test point A","Test point B","Test point C","Test point D","Test point E"];
+
+const trace = {
+  type: "scattermapbox",
+  lat,
+  lon,
+  mode: "markers",
+  text: labels.map((x,i)=>x+"<br>Change: "+change[i]+"%"),
+  hoverinfo: "text",
+  marker: {
+    size: change.map(v=>12 + Math.abs(v)*0.8),
+    color: change,
+    colorscale: "RdBu",
+    reversescale: true,
+    cmin: -25,
+    cmax: 25,
+    colorbar: {title:"% change"},
+    opacity: 0.82
+  }
+};
+
+const layout = {
+  margin:{l:0,r:0,t:0,b:0},
+  paper_bgcolor:"#0d1117",
+  plot_bgcolor:"#0d1117",
+  font:{color:"#e6edf3"},
+  mapbox:{
+    style:"open-street-map",
+    center:{lat:51.7,lon:-71.7},
+    zoom:3.2
+  }
+};
+
+Plotly.newPlot("map",[trace],layout,{responsive:true,displaylogo:false});
+</script>
+</body>
+</html>
