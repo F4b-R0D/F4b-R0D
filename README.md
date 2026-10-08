@@ -32,13 +32,14 @@ An ex post evaluation of the 2017 Hudson Bay Railway disruption and its effects 
 
 ## Professional Projects
 
-### [Optimal Investment Sequencing](https://github.com/F4b-R0D/optimal-investment-workforce-sequencing)
+### [Dynamic Investment Programming](https://github.com/F4b-R0D/optimal-investment-workforce-sequencing)
 
-An ex ante investment-planning model that links project pipelines, input-output analysis, industry-to-occupation mappings, labour constraints, and optimization.
+An integrated dynamic investment-planning framework with two complementary modules:
 
-The objective is to identify the timing and scale of investments that generate sustainable employment paths for strategic occupations while respecting workforce, budget, capacity, and project constraints.
+- **[Investment & Workforce Sequencing](https://github.com/F4b-R0D/optimal-investment-workforce-sequencing)** — Ex ante scheduling and scaling of investment pipelines through input-output analysis, NAICS–NOC workforce mapping, and labour, budget, and capacity constraints.
+- **[Optimal Replacement Model](https://github.com/F4b-R0D/optimal-investment-workforce-sequencing/tree/main/optimal-replacement-model)** — Dynamic programming for infrastructure maintenance and asset-replacement decisions under uncertainty.
 
-**Methods:** `Input-Output` · `NAICS–NOC Mapping` · `Workforce Forecasting` · `Resource Constraints` · `Optimization` · `Scenario Analysis`
+**Methods:** `Dynamic Programming` · `Input-Output` · `NAICS–NOC Mapping` · `Workforce Forecasting` · `NFXP` · `Optimization` · `Scenario Analysis`
 
 ---
 
@@ -47,14 +48,6 @@ The objective is to identify the timing and scale of investments that generate s
 High-frequency economic activity measurement using electricity consumption and time-series forecasting.
 
 **Methods:** `Nowcasting` · `Time Series` · `High-Frequency Indicators` · `Python`
-
----
-
-### [Optimal Replacement Model](https://github.com/F4b-R0D/Optimal-Replacement-Model)
-
-Dynamic programming model for infrastructure asset-replacement decisions under uncertainty.
-
-**Methods:** `Dynamic Programming` · `NFXP` · `Capital Budgeting` · `Optimization`
 
 ## Methods & Tools
 
